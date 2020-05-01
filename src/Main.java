@@ -5,12 +5,11 @@ public class Main {
         int bonus = 0;
         if (amount > 1000) {
 
-            bonus = (amount - amount % 100) / 100;}
-            int total = balance + amount + bonus;
+            bonus = (amount / 100);
+        }
+        int total = balance + amount + bonus;
 
-            System.out.println(total);
-
-
+        System.out.println(total);
 
 
     }
